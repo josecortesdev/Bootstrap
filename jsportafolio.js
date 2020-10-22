@@ -1,3 +1,22 @@
+// probando screen full
+
+
+
+// $(document).ready(function(){
+
+function altura(){
+      var height = $(window).height(); // creamos variable con la altura de la pantalla
+
+      $('#divuno').height(height);    // Decimos que este div tendrá esa altura
+      $('#divdos').height(height);
+}
+// );
+
+
+
+
+// -----------------------
+
 
 var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
@@ -41,6 +60,9 @@ TxtRotate.prototype.tick = function() {
 };
 
 window.onload = function() {
+
+altura();  // ----------------------------RECUERDA QUE LO MODIFICATE
+
   var elements = document.getElementsByClassName('txt-rotate');
   for (var i=0; i<elements.length; i++) {
     var toRotate = elements[i].getAttribute('data-rotate');
