@@ -84,7 +84,7 @@ body {
   border-radius: 50px
 }
 
-.btn-outline-facebook {
+/* .btn-outline-facebook {
   border: 1px solid #3b579d;
   color: #3b579d
 }
@@ -100,8 +100,8 @@ body {
 }
 
 .btn-outline-envelope {
-  border: 1px solid #2caae1;
-  color: #2caae1
+  border: 1px solid #ff5c5c;
+  color: #ff5c5c;
 }
 
 .btn-outline-dribbble {
@@ -112,12 +112,12 @@ body {
 .btn-outline-linkedin {
   border: 1px solid #0177b5;
   color: #0177b5
-}
+} */
 
-
+/* 
 .btn-outline-envelope:hover {
-  background: #2caae1;
-  color: #ffffff
+  background: #ff5c5c;
+  color: #ff5c5c
 }
 
 .btn-outline-linkedin:hover {
@@ -133,7 +133,7 @@ body {
 .btn-outline-user:hover {
   background: #e52d27;
   color: #ffffff
-}
+} */
 
 .btn-facebook {
   background: #3b579d;
@@ -146,14 +146,11 @@ body {
 }
 
 .btn-envelope {
-  background: #2caae1;
+  background: #dd5044;
   color: #ffffff
 }
 
-.btn-dribbble {
-  background: #ea4c89;
-  color: #ffffff
-}
+
 
 .btn-linkedin {
   background: #0177b5;
@@ -179,7 +176,7 @@ body {
 
 .btn-envelope:hover,
 .btn-envelope:focus {
-  background: #1b8dbf;
+  background: #be392d;
   color: #ffffff
 }
 
@@ -203,24 +200,19 @@ body {
 
 /* ZOOM */
 
-.zoom {
-  /* padding: 50px;
+/* .zoom {
  
-  
-  width: 200px;
-  height: 200px;
-  margin: 0 auto; */
   transition: transform .2s;
+
+  opacity: 0.5;
 }
 
 .zoom:hover {
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1); 
   transform: scale(1.1); 
-}
 
-.botonproyectos{
-  transition: transform .3s;
+  opacity: 1;
+} */
 
-}
 

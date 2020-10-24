@@ -2,16 +2,56 @@
 
 
 
-// $(document).ready(function(){
+
 
 function altura(){
       var height = $(window).height(); // creamos variable con la altura de la pantalla
 
       $('.divuno').height(height);    // Decimos que este div tendrá esa altura
       $('.divdos').height(height);
-}
-// );
 
+  
+}
+
+$(document).ready(function(){
+  $(".zoom1").hover(function(){
+    $(".letraszoom1").css("transform","scale(1.1)");
+    $(".ver1").css("visibility", "visible");
+    }, function(){
+      $(".letraszoom1").css("transform","scale(1)");
+      $(".ver1").css("visibility", "hidden");
+     
+  });
+ 
+});
+
+$(document).ready(function(){
+  $(".zoom2").hover(function(){
+    $(".letraszoom2").css("transform","scale(1.1)");
+    $(".ver2").css("visibility", "visible");
+    }, function(){
+      $(".letraszoom2").css("transform","scale(1)");
+      $(".ver2").css("visibility", "hidden");
+     
+  });
+ 
+});
+  
+
+
+// $('.ver').hover(function(){  // Añado el botón de ver proyecto
+
+//   $('.ver').html('hola');
+//   console.log('llega al mouse')
+//  });
+
+
+ 
+      
+
+ 
+    
+   
 
 
 
@@ -61,7 +101,10 @@ TxtRotate.prototype.tick = function() {
 
 window.onload = function() {
 
-altura();  // ----------------------------RECUERDA QUE LO MODIFICATE
+altura();  // ----------------------------RECUERDA QUE LO MODIFICASTE
+
+
+
 
   var elements = document.getElementsByClassName('txt-rotate');
   for (var i=0; i<elements.length; i++) {
