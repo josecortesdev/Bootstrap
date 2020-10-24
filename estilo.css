@@ -200,3 +200,27 @@ body {
   background: #4b4b4b;
   color: #ffffff
 }
+
+/* ZOOM */
+
+.zoom {
+  /* padding: 50px;
+ 
+  
+  width: 200px;
+  height: 200px;
+  margin: 0 auto; */
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+.botonproyectos{
+  transition: transform .3s;
+
+}
+
