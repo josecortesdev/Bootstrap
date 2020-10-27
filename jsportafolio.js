@@ -10,10 +10,15 @@ function altura(){
       $('.divuno').height(height);    // Decimos que este div tendrá esa altura
       $('.divdos').height(height);
 
+      
+      
+
+
   
 }
 
 $(document).ready(function(){
+  $(".ver1").css("visibility", "hidden");
   $(".zoom1").hover(function(){
     $(".letraszoom1").css("transform","scale(1.1)");
     $(".ver1").css("visibility", "visible");
@@ -26,6 +31,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+  $(".ver2").css("visibility", "hidden");
   $(".zoom2").hover(function(){
     $(".letraszoom2").css("transform","scale(1.1)");
     $(".ver2").css("visibility", "visible");
