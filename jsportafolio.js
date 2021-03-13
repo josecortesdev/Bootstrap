@@ -1,7 +1,3 @@
-// probando screen full
-
-
-
 
 
 function altura(){
@@ -10,11 +6,6 @@ function altura(){
       $('.divuno').height(height);    // Decimos que este div tendrá esa altura
       $('.divdos').height(height);
 
-      
-      
-
-
-  
 }
 
 $(document).ready(function(){
@@ -43,23 +34,6 @@ $(document).ready(function(){
  
 });
   
-
-
-// $('.ver').hover(function(){  // Añado el botón de ver proyecto
-
-//   $('.ver').html('hola');
-//   console.log('llega al mouse')
-//  });
-
-
- 
-      
-
- 
-    
-   
-
-
 
 // -----------------------
 
@@ -107,9 +81,7 @@ TxtRotate.prototype.tick = function() {
 
 window.onload = function() {
 
-altura();  // ----------------------------RECUERDA QUE LO MODIFICASTE
-
-
+altura();  
 
 
   var elements = document.getElementsByClassName('txt-rotate');
